@@ -102,6 +102,8 @@ You are expected to edit **three files**:
 
 The rest of the codebase shall remain untouched.
 
+**Feature Engineering & Dimensionality Reduction**: Applicants are encouraged to experiment with adding hand-crafted features during the aggregation step, drawing on geometrical or topological methods to enrich the representation of probe outputs. Additionally, you may apply dimensionality reduction techniques within probe.py to compress or refine the feature space. 
+
 ## Evaluation
 
 For each fold `evaluate.py` reports four numbers:
