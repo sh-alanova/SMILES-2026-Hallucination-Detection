@@ -2,7 +2,7 @@
 probe.py — Hallucination probe classifier (student-implemented).
 
 Implements ``HallucinationProbe``, a binary MLP that classifies feature
-vectors as truthful (0) or hallucinated (1).  Called from ``solution.ipynb``
+vectors as truthful (0) or hallucinated (1).  Called from ``solution.py``
 via ``evaluate.run_evaluation``.  All four public methods (``fit``,
 ``fit_hyperparameters``, ``predict``, ``predict_proba``) must be implemented
 and their signatures must not change.
