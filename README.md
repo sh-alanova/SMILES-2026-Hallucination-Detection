@@ -1,4 +1,5 @@
 # 🔍 SMILES-2026 Hallucination Detection
+## Fork by Shirin Alanova — Solution Report is in `SOLUTION.md`.
 
 Detect whether a small language
 model's answer is *hallucinated* (fabricated) or *truthful* using the model's
