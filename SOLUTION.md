@@ -97,7 +97,11 @@ I implemented the five architectures from the reference paper, adapting them to 
 
 **Unsupervised Compression Harms Small-N Probing:** PCA reduced dimensionality but destroyed directional variance. Hidden-state manifolds for hallucination detection are not isotropic; they rely on sparse, high-magnitude directions that PCA inadvertently discards. Standard scaling preserves these cues better.
 
-### 2.6 Final Architecture Selection
+### 2.6 Details
+
+Experiments logs and M0-M4 implementation can be found [here](https://github.com/sh-alanova/SMILES-2026-Hallucination-Detection/blob/main/HD_exps.ipynb)
+
+## 3. Final Architecture Selection
 
 Based on empirical evidence, **M0: ProbeMLP** was selected as the final submission architecture. It is the only model that:
 - Achieves test accuracy strictly above the majority-class baseline (74.04% > 70.19%)
